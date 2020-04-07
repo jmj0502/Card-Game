@@ -1,0 +1,185 @@
+/************************************
+GENERAL STYLE
+************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+.main-panel {
+    align-self: center;
+    height: 12em;
+    width: 30em;
+    background-color: darkgrey;
+    margin: 3em auto auto auto;
+    color: #EB4D4D;
+    border-radius: 20px;
+    border-bottom: 1px #333 ;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.player-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70em;
+    margin: 3em auto auto auto;
+    background-color: red;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4em;
+    align-items: flex-start;
+}
+
+
+img {
+    width: 4em;
+    height: 8em;
+    background-color: white;
+    margin: .5em;
+}   
+
+.button-container {
+    /*background-color: white;*/
+    margin: 3em auto auto auto;
+    width: 30em;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 2em 2.8em;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-size: .8em;
+    border: 0px;
+    margin-bottom: .3em;
+    cursor: pointer;
+}
+
+.init {
+    background-color: teal;
+}
+
+.action {
+    background-color: crimson;
+}
+
+.end {
+    background-color: goldenrod;
+}
+
+/******************************
+PLAYER STYLE
+*******************************/
+
+.player-0-name {
+    font-size: 1.9em;
+    color: #333;
+    text-align: center;
+}
+
+.player-1-name {
+    font-size: 1.9em;
+    color: #333;
+    text-align: center;
+}
+
+.player-0-name-top {
+    font-size: 1.9em;
+    color: #333;
+    text-align: center;
+}
+
+.player-1-name-top {
+    font-size: 1.9em;
+    color: #333;
+    text-align: center;
+}
+
+.player-score {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.global-indicator {
+    font-size: 1.9em;
+    color: #333;
+    text-align: center;
+}
+
+.global-score {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.player-0-game {
+    /*background-color: coral;*/
+    width: 80%;
+    height: 45%;
+}
+
+.player-1-game {
+    /*background-color: darkcyan;*/
+    width: 80%;
+    height: 45%;
+}
+
+/* .player-0-status {
+    display: initial;
+} */
+
+/* .player-1-status {
+    display: initial;
+} */
+
+.container {
+    /*background-color: slateblue;*/
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.active {
+    background-color: crimson;
+    width: 50%;
+}
+
+.active .card {
+    box-shadow: 10px goldenrod;
+}
+
+.player-display {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.winner-player {
+    color: #EB4D4D;
+    font-size: 1.9em;
+}
